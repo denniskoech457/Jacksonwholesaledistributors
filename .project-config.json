@@ -1,0 +1,34 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [],
+  "dev_command": "pnpm run dev",
+  "env_vars": {},
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/VNnBP93WCDUcM52eWgo6Lq.git",
+    "expiration": "2026-07-01T15:44:51.209Z",
+    "token": "art_v1_17d7952d48f0ff35aa5e116cc0eba64ca341cb3c?expires=1782920691",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "jackson-wholesale-clone",
+  "path": "/home/ubuntu/jackson-wholesale-clone",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "GgnapeMWPB42ii8hXYi8Ye",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "gYmHWf7Ly7FxbCw4h3xbqe",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Shaz",
+    "OWNER_OPEN_ID": "3ZpJRy226LCbogqBbPtZer",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "d1ba5ca3-12c9-417a-aeac-fa89ba1e0e2e",
+    "VITE_APP_ID": "VNnBP93WCDUcM52eWgo6Lq",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "Jackson Wholesale Clone",
+    "VITE_FRONTEND_FORGE_API_KEY": "mWyG3NbRo2Z5r5SvygKrdY",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
