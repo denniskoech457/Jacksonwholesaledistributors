@@ -1,1 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jackson Wholesale Distributors Ltd - Uganda Phone Installment Plans</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary: #0d5a3d;
+            --primary-light: #0f7a4f;
+            --accent: #fbbf24;
+            --accent-light: #fcd34d;
+            --text: #1f2937;
+            --text-light: #6b7280;
+            --bg-light: #f9fafb;
+            --border: #e5e7eb;
+            --success: #10b981;
+            --white: #ffffff;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Sora', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            color: var(--text);
+            line-height: 1.6;
+            background: var(--white);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 50;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        header.scrolled {
+            background: rgba(255, 255, 255, 0.98);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 64px;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: var(--text);
+            font-weight: 700;
+            font-size: 16px;
+        }
+        
+        .logo-img {
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+            object-fit: contain;
+        }
+        
+        nav {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: var(--text);
+            font-size: 14px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: var(--primary);
+        }
+        
+        .btn-primary {
+            background: var(--accent);
+            color: var(--text);
+            padding: 10px 24px;
+            border-radius: 8px;
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .btn-primary:hover {
+            background: var(--accent-light);
+            transform: translateY(-2px);
+        }
+        
+        @media (max-width: 768px) {
+            nav {
+                display: none;
+            }
+        }
+        
+        /* Hero Section */
+        .hero {
+            margin-top: 64px;
+            min-height: 100vh;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 50%, #0a4a35 100%);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-image: radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 50%);
+            pointer-events: none;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 10;
+            max-width: 600px;
+            animation: fadeInUp 0.8s ease;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .hero h1 {
+            font-size: clamp(32px, 8vw, 64px);
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+        
+        .hero .highlight {
+            color: var(--accent);
+        }
+        
+        .hero p {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 32px;
+            line-height: 1.8;
+        }
+        
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            border: 2px solid white;
+            color: white;
+            padding: 12px 28px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .btn-secondary:hover {
+            background: white;
+            color: var(--primary);
+        }
+        
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255, 255, 255, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 8px 16px;
+            border-radius: 24px;
+            color: rgba(255, 255, 255, 0.95);
+            font-size: 14px;
+            margin-bottom: 24px;
+            width: fit-content;
+        }
+        
+        /* Phones Section */
+        .section {
+            padding: 80px 0;
+        }
+        
+        .section-title {
+            font-size: 48px;
+            font-weight: 800;
+            margin-bottom: 16px;
+            color: var(--text);
+        }
+        
+        .section-subtitle {
+            font-size: 18px;
+            color: var(--text-light);
+            margin-bottom: 48px;
+            max-width: 600px;
+        }
+        
+        .phones-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 24px;
+        }
+        
+        .phone-card {
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+        
+        .phone-card:hover {
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+            transform: translateY(-4px);
+        }
+        
+        .phone-image {
+            width: 100%;
+            height: 240px;
+            object-fit: contain;
+            margin-bottom: 16px;
+            background: var(--bg-light);
+            border-radius: 8px;
+        }
+        
+        .phone-name {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 8px;
+        }
+        
+        .phone-specs {
+            font-size: 14px;
+            color: var(--text-light);
+            margin-bottom: 16px;
+        }
+        
+        .phone-price {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 12px;
+        }
+        
+        .phone-daily {
+            font-size: 14px;
+            color: var(--accent);
+            font-weight: 600;
+        }
+        
+        /* How It Works */
+        .how-it-works {
+            background: var(--bg-light);
+        }
+        
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 32px;
+        }
+        
+        .step {
+            background: var(--white);
+            padding: 32px 24px;
+            border-radius: 12px;
+            border-left: 4px solid var(--accent);
+        }
+        
+        .step-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            font-weight: 700;
+            font-size: 20px;
+            margin-bottom: 16px;
+        }
+        
+        .step-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 12px;
+        }
+        
+        .step-desc {
+            font-size: 14px;
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+        
+        /* Application Form */
+        .apply-section {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+        }
+        
+        .apply-section .section-title {
+            color: white;
+        }
+        
+        .apply-section .section-subtitle {
+            color: rgba(255, 255, 255, 0.9);
+        }
+        
+        .form-container {
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            color: var(--text);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .form-group {
+            margin-bottom: 24px;
+        }
+        
+        .form-label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--text);
+            font-size: 14px;
+        }
+        
+        .form-input,
+        .form-select,
+        .form-textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+        
+        .form-input:focus,
+        .form-select:focus,
+        .form-textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(13, 90, 61, 0.1);
+        }
+        
+        .form-textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: var(--border);
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 24px;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary), var(--primary-light));
+            transition: width 0.5s ease;
+        }
+        
+        /* Team Section */
+        .team-section {
+            background: var(--bg-light);
+        }
+        
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 32px;
+        }
+        
+        .team-member {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        
+        .team-member:hover {
+            transform: translateY(-8px);
+        }
+        
+        .team-image {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            background: var(--border);
+        }
+        
+        .team-info {
+            padding: 24px;
+        }
+        
+        .team-name {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 4px;
+        }
+        
+        .team-role {
+            font-size: 14px;
+            color: var(--accent);
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        
+        .team-bio {
+            font-size: 14px;
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--primary);
+            color: white;
+            padding: 48px 0 24px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 32px;
+            margin-bottom: 32px;
+        }
+        
+        .footer-section h4 {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: var(--accent);
+        }
+        
+        .footer-section a,
+        .footer-section p {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            margin-bottom: 8px;
+            display: block;
+            transition: color 0.3s;
+        }
+        
+        .footer-section a:hover {
+            color: white;
+        }
+        
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 24px;
+            text-align: center;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.6);
+        }
+        
+        /* Testimonials */
+        .testimonials {
+            background: var(--white);
+        }
+        
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+        }
+        
+        .testimonial {
+            background: var(--bg-light);
+            padding: 24px;
+            border-radius: 12px;
+            border-left: 4px solid var(--accent);
+        }
+        
+        .testimonial-text {
+            font-size: 14px;
+            color: var(--text);
+            margin-bottom: 16px;
+            line-height: 1.6;
+            font-style: italic;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .testimonial-avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            object-fit: cover;
+            background: var(--border);
+        }
+        
+        .testimonial-info {
+            flex: 1;
+        }
+        
+        .testimonial-name {
+            font-weight: 700;
+            color: var(--text);
+            font-size: 14px;
+        }
+        
+        .testimonial-role {
+            font-size: 12px;
+            color: var(--text-light);
+        }
+        
+        .stars {
+            color: var(--accent);
+            font-size: 12px;
+            margin-top: 4px;
+        }
+        
+        /* WhatsApp Button */
+        .whatsapp-fab {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            width: 56px;
+            height: 56px;
+            background: #25D366;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+            transition: all 0.3s;
+            z-index: 40;
+            text-decoration: none;
+        }
+        
+        .whatsapp-fab:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 16px rgba(37, 211, 102, 0.5);
+        }
+        
+        .whatsapp-fab svg {
+            width: 28px;
+            height: 28px;
+            fill: white;
+        }
+        
+        /* Scroll to Top */
+        .scroll-to-top {
+            position: fixed;
+            bottom: 100px;
+            left: 24px;
+            width: 48px;
+            height: 48px;
+            background: var(--accent);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s;
+            z-index: 40;
+            border: none;
+            color: var(--text);
+            font-size: 20px;
+        }
+        
+        .scroll-to-top.visible {
+            opacity: 1;
+            pointer-events: auto;
+        }
+        
+        .scroll-to-top:hover {
+            transform: scale(1.1);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .section {
+                padding: 48px 0;
+            }
+            
+            .section-title {
+                font-size: 32px;
+            }
+            
+            .form-container {
+                padding: 24px;
+            }
+            
+            .hero h1 {
+                font-size: 36px;
+            }
+            
+            .phones-grid {
+                grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+                gap: 16px;
+            }
+            
+            .phone-card {
+                padding: 16px;
+            }
+            
+            .phone-image {
+                height: 160px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">
+                    <span style="width: 36px; height: 36px; background: linear-gradient(135deg, #0d5a3d, #fbbf24); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 18px;">J</span>
+                    <span>Jackson Wholesale</span>
+                </a>
+                <nav>
+                    <a href="#phones">Phones</a>
+                    <a href="#how-it-works">How It Works</a>
+                    <a href="#apply">Apply</a>
+                    <a href="#team">Team</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#apply" class="btn-primary">Apply Now</a>
+                </nav>
+            </div>
+        </div>
+    </header>
 
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="badge">
+                    <span>📍</span>
+                    <span>Kololo, Kampala — Uganda</span>
+                </div>
+                <h1>Own Your Phone <span class="highlight">Today.</span> Pay Over 12 Months.</h1>
+                <p>Uganda's trusted smartphone installment plan. Samsung, Tecno, Infinix, Redmi & iPhone — starting from just <strong>UGX 900/day</strong>.</p>
+                <div class="hero-buttons">
+                    <a href="#phones" class="btn-primary">Browse Phones →</a>
+                    <a href="#apply" class="btn-secondary">Apply Now — It's Free</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Phones Section -->
+    <section class="section" id="phones">
+        <div class="container">
+            <h2 class="section-title">Discover Your Perfect Phone</h2>
+            <p class="section-subtitle">Choose from our curated selection of premium smartphones with flexible payment plans.</p>
+            <div class="phones-grid">
+                <div class="phone-card">
+                    <div class="phone-image" style="background: linear-gradient(135deg, #f0f0f0, #e0e0e0); display: flex; align-items: center; justify-content: center; font-size: 48px;">📱</div>
+                    <div class="phone-name">Samsung Galaxy A06</div>
+                    <div class="phone-specs">4GB / 64GB</div>
+                    <div class="phone-price">UGX 50,000 Deposit</div>
+                    <div class="phone-daily">UGX 1,000/day</div>
+                </div>
+                <div class="phone-card">
+                    <div class="phone-image" style="background: linear-gradient(135deg, #f0f0f0, #e0e0e0); display: flex; align-items: center; justify-content: center; font-size: 48px;">📱</div>
+                    <div class="phone-name">Samsung Galaxy A16</div>
+                    <div class="phone-specs">6GB / 128GB</div>
+                    <div class="phone-price">UGX 80,000 Deposit</div>
+                    <div class="phone-daily">UGX 1,500/day</div>
+                </div>
+                <div class="phone-card">
+                    <div class="phone-image" style="background: linear-gradient(135deg, #f0f0f0, #e0e0e0); display: flex; align-items: center; justify-content: center; font-size: 48px;">📱</div>
+                    <div class="phone-name">Tecno Spark 30</div>
+                    <div class="phone-specs">8GB / 128GB</div>
+                    <div class="phone-price">UGX 80,000 Deposit</div>
+                    <div class="phone-daily">UGX 1,500/day</div>
+                </div>
+                <div class="phone-card">
+                    <div class="phone-image" style="background: linear-gradient(135deg, #f0f0f0, #e0e0e0); display: flex; align-items: center; justify-content: center; font-size: 48px;">📱</div>
+                    <div class="phone-name">Tecno Camon 40</div>
+                    <div class="phone-specs">8GB / 256GB</div>
+                    <div class="phone-price">UGX 120,000 Deposit</div>
+                    <div class="phone-daily">UGX 2,300/day</div>
+                </div>
+                <div class="phone-card">
+                    <div class="phone-image" style="background: linear-gradient(135deg, #f0f0f0, #e0e0e0); display: flex; align-items: center; justify-content: center; font-size: 48px;">📱</div>
+                    <div class="phone-name">Infinix Smart 9</div>
+                    <div class="phone-specs">4GB / 128GB</div>
+                    <div class="phone-price">UGX 60,000 Deposit</div>
+                    <div class="phone-daily">UGX 1,200/day</div>
+                </div>
+                <div class="phone-card">
+                    <div class="phone-image" style="background: linear-gradient(135deg, #f0f0f0, #e0e0e0); display: flex; align-items: center; justify-content: center; font-size: 48px;">📱</div>
+                    <div class="phone-name">Infinix Note 50</div>
+                    <div class="phone-specs">8GB / 256GB</div>
+                    <div class="phone-price">UGX 120,000 Deposit</div>
+                    <div class="phone-daily">UGX 2,500/day</div>
+                </div>
+                <div class="phone-card">
+                    <div class="phone-image" style="background: linear-gradient(135deg, #f0f0f0, #e0e0e0); display: flex; align-items: center; justify-content: center; font-size: 48px;">📱</div>
+                    <div class="phone-name">itel A90</div>
+                    <div class="phone-specs">4GB / 128GB</div>
+                    <div class="phone-price">UGX 50,000 Deposit</div>
+                    <div class="phone-daily">UGX 900/day</div>
+                </div>
+                <div class="phone-card">
+                    <div class="phone-image" style="background: linear-gradient(135deg, #f0f0f0, #e0e0e0); display: flex; align-items: center; justify-content: center; font-size: 48px;">📱</div>
+                    <div class="phone-name">Redmi 14C</div>
+                    <div class="phone-specs">6GB / 128GB</div>
+                    <div class="phone-price">UGX 60,000 Deposit</div>
+                    <div class="phone-daily">UGX 1,300/day</div>
+                </div>
+                <div class="phone-card">
+                    <div class="phone-image" style="background: linear-gradient(135deg, #f0f0f0, #e0e0e0); display: flex; align-items: center; justify-content: center; font-size: 48px;">📱</div>
+                    <div class="phone-name">Redmi Note 14</div>
+                    <div class="phone-specs">8GB / 256GB</div>
+                    <div class="phone-price">UGX 120,000 Deposit</div>
+                    <div class="phone-daily">UGX 2,200/day</div>
+                </div>
+                <div class="phone-card">
+                    <div class="phone-image" style="background: linear-gradient(135deg, #f0f0f0, #e0e0e0); display: flex; align-items: center; justify-content: center; font-size: 48px;">📱</div>
+                    <div class="phone-name">Apple iPhone 13</div>
+                    <div class="phone-specs">4GB / 128GB</div>
+                    <div class="phone-price">UGX 250,000 Deposit</div>
+                    <div class="phone-daily">UGX 3,500/day</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="section how-it-works" id="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <p class="section-subtitle">Our simple 5-step process gets you your phone in minutes.</p>
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-title">Choose Your Phone</div>
+                    <div class="step-desc">Select your preferred model, RAM, storage, and colour from our catalogue.</div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-title">Submit Your Details</div>
+                    <div class="step-desc">Fill in your full name, National ID, phone number, and delivery details.</div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-title">Verification</div>
+                    <div class="step-desc">Our team verifies your information and confirms your eligibility.</div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-title">Make Deposit</div>
+                    <div class="step-desc">Pay your initial deposit via Mobile Money or Bank Transfer.</div>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <div class="step-title">Receive Your Phone</div>
+                    <div class="step-desc">Get your phone delivered or collect from our Kololo office.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <p class="section-subtitle">Real stories from real customers who trusted us with their phone needs.</p>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <div class="testimonial-text">"Jackson Wholesale made it so easy to get a quality phone without breaking the bank. The process was smooth and the team was very helpful!"</div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #667eea, #764ba2); display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 20px;">SN</div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-name">Sarah Nakato</div>
+                            <div class="testimonial-role">Business Owner</div>
+                            <div class="stars">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-text">"I was able to get an iPhone 13 with just a small deposit. The daily payments are manageable and fit perfectly into my budget."</div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #f093fb, #f5576c); display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 20px;">MO</div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-name">Moses Okello</div>
+                            <div class="testimonial-role">Student</div>
+                            <div class="stars">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-text">"Professional service from start to finish. I received my phone on time and the customer support is excellent. Highly recommended!"</div>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #4facfe, #00f2fe); display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 20px;">JK</div>
+                        <div class="testimonial-info">
+                            <div class="testimonial-name">Jennifer Kyambadde</div>
+                            <div class="testimonial-role">Healthcare Worker</div>
+                            <div class="stars">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form -->
+    <section class="section apply-section" id="apply">
+        <div class="container">
+            <h2 class="section-title">Apply for Your Phone Today</h2>
+            <p class="section-subtitle">Quick, easy, and completely free. Get approved in minutes.</p>
+            <div class="form-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill" style="width: 20%;"></div>
+                </div>
+                <form id="applicationForm" onsubmit="handleFormSubmit(event)">
+                    <div class="form-group">
+                        <label class="form-label">Full Name *</label>
+                        <input type="text" class="form-input" name="fullName" placeholder="e.g. Nakato Sarah" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">National ID / NIN *</label>
+                        <input type="text" class="form-input" name="nin" placeholder="e.g. CM9200123456ABCD" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Phone Number *</label>
+                        <input type="tel" class="form-input" name="phone" placeholder="e.g. 0768 980 819" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Select Phone Model *</label>
+                        <select class="form-select" name="phone_model" required>
+                            <option value="">Choose a phone...</option>
+                            <option value="Samsung Galaxy A06">Samsung Galaxy A06 - UGX 1,000/day</option>
+                            <option value="Samsung Galaxy A16">Samsung Galaxy A16 - UGX 1,500/day</option>
+                            <option value="Tecno Spark 30">Tecno Spark 30 - UGX 1,500/day</option>
+                            <option value="Tecno Camon 40">Tecno Camon 40 - UGX 2,300/day</option>
+                            <option value="Infinix Smart 9">Infinix Smart 9 - UGX 1,200/day</option>
+                            <option value="Infinix Note 50">Infinix Note 50 - UGX 2,500/day</option>
+                            <option value="itel A90">itel A90 - UGX 900/day</option>
+                            <option value="Redmi 14C">Redmi 14C - UGX 1,300/day</option>
+                            <option value="Redmi Note 14">Redmi Note 14 - UGX 2,200/day</option>
+                            <option value="Apple iPhone 13">Apple iPhone 13 - UGX 3,500/day</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Delivery Address *</label>
+                        <textarea class="form-textarea" name="address" placeholder="Enter your full delivery address in Uganda" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label style="display: flex; align-items: center; gap: 8px; cursor: pointer; font-size: 14px;">
+                            <input type="checkbox" name="age" required style="width: 16px; height: 16px;">
+                            I confirm that I am <strong>22 years of age or older</strong>.
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label style="display: flex; align-items: center; gap: 8px; cursor: pointer; font-size: 14px;">
+                            <input type="checkbox" name="terms" required style="width: 16px; height: 16px;">
+                            I have read and agree to the Terms & Conditions.
+                        </label>
+                    </div>
+                    <button type="submit" class="btn-primary" style="width: 100%; padding: 14px; font-size: 16px;">Submit Application</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="section team-section" id="team">
+        <div class="container">
+            <h2 class="section-title">Meet Our Team</h2>
+            <p class="section-subtitle">Dedicated professionals committed to making smartphones accessible to every Ugandan.</p>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="team-image" style="background: linear-gradient(135deg, #667eea, #764ba2); display: flex; align-items: center; justify-content: center; color: white; font-size: 64px;">👨‍💼</div>
+                    <div class="team-info">
+                        <div class="team-name">Jackson Wogongoba</div>
+                        <div class="team-role">Chief Executive Officer</div>
+                        <div class="team-bio">Founder and CEO with 15+ years in telecommunications and retail.</div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="team-image" style="background: linear-gradient(135deg, #f093fb, #f5576c); display: flex; align-items: center; justify-content: center; color: white; font-size: 64px;">👩‍💼</div>
+                    <div class="team-info">
+                        <div class="team-name">Amina Nakato</div>
+                        <div class="team-role">Sales Manager</div>
+                        <div class="team-bio">Drives customer acquisition and manages our sales team with passion.</div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="team-image" style="background: linear-gradient(135deg, #4facfe, #00f2fe); display: flex; align-items: center; justify-content: center; color: white; font-size: 64px;">👨‍💼</div>
+                    <div class="team-info">
+                        <div class="team-name">David Okello</div>
+                        <div class="team-role">Operations Director</div>
+                        <div class="team-bio">Oversees logistics and ensures every customer receives their phone on time.</div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="team-image" style="background: linear-gradient(135deg, #fa709a, #fee140); display: flex; align-items: center; justify-content: center; color: white; font-size: 64px;">👩‍💼</div>
+                    <div class="team-info">
+                        <div class="team-name">Grace Kyambadde</div>
+                        <div class="team-role">Customer Support Lead</div>
+                        <div class="team-bio">Leads our support team and ensures every inquiry is handled with care.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact" style="background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%); color: white;">
+        <div class="container">
+            <h2 class="section-title" style="color: white;">Get in Touch</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 32px; margin-top: 48px;">
+                <div>
+                    <h4 style="font-size: 18px; font-weight: 700; margin-bottom: 16px; color: var(--accent);">📞 Phone</h4>
+                    <p style="color: rgba(255, 255, 255, 0.9);">0768 980 819</p>
+                </div>
+                <div>
+                    <h4 style="font-size: 18px; font-weight: 700; margin-bottom: 16px; color: var(--accent);">💬 WhatsApp</h4>
+                    <p style="color: rgba(255, 255, 255, 0.9);">Chat with us anytime</p>
+                </div>
+                <div>
+                    <h4 style="font-size: 18px; font-weight: 700; margin-bottom: 16px; color: var(--accent);">📍 Location</h4>
+                    <p style="color: rgba(255, 255, 255, 0.9);">Kololo, Kampala, Uganda</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About</h4>
+                    <p>Jackson Wholesale Distributors Ltd is Uganda's trusted smartphone installment provider.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="#phones">Browse Phones</a>
+                    <a href="#how-it-works">How It Works</a>
+                    <a href="#apply">Apply Now</a>
+                    <a href="#team">Team</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <a href="tel:+256768980819">0768 980 819</a>
+                    <a href="https://wa.me/256768980819" target="_blank">WhatsApp</a>
+                    <p>Kololo, Kampala, Uganda</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Jackson Wholesale Distributors Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp FAB -->
+    <a href="https://wa.me/256768980819" target="_blank" class="whatsapp-fab" title="Chat with us on WhatsApp">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a6.963 6.963 0 00-6.963 6.963c0 1.528.39 3.029 1.126 4.354l-1.197 4.373 4.526-1.143c1.28.658 2.722 1.007 4.202 1.007h.004c3.857 0 6.996-3.137 6.996-6.994 0-1.866-.73-3.622-2.058-4.94-1.327-1.319-3.092-2.046-4.968-2.046"/>
+        </svg>
+    </a>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" onclick="scrollToTop()">↑</button>
+
+    <script>
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.getElementById('header');
+            if (window.pageYOffset > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+            
+            // Scroll to top button
+            const scrollBtn = document.getElementById('scrollToTop');
+            if (window.pageYOffset > 300) {
+                scrollBtn.classList.add('visible');
+            } else {
+                scrollBtn.classList.remove('visible');
+            }
+        });
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // Form submission
+        document.getElementById('applicationForm').addEventListener('input', function() {
+            const progress = (Object.keys(this.elements).filter(i => this.elements[i].value || this.elements[i].checked).length / Object.keys(this.elements).length) * 100;
+            document.getElementById('progressFill').style.width = Math.min(progress, 95) + '%';
+        });
+
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            const form = event.target;
+            const fullName = form.fullName.value;
+            const phone = form.phone.value;
+            const phoneModel = form.phone_model.value;
+            
+            const message = `Hi Jackson Wholesale! I'd like to apply for the ${phoneModel}. My name is ${fullName} and my phone is ${phone}. Please contact me to proceed.`;
+            const whatsappUrl = `https://wa.me/256768980819?text=${encodeURIComponent(message)}`;
+            
+            window.open(whatsappUrl, '_blank');
+            form.reset();
+            document.getElementById('progressFill').style.width = '20%';
+        }
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
